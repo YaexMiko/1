@@ -97,4 +97,3 @@ async def get_animes(name, torrent, force=False):
     
     # Send this post to the main and associated channels
     await create_and_send_post(name, post_msg)
-  
