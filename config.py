@@ -5,7 +5,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "28614709")
     API_HASH  = os.environ.get("API_HASH", "f36fd2ee6e3d3a17c4d244ff6dc1bac8")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8023247294:AAGObhoABc5Ht1AN6SfPkglgGt59IfH5yYM") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7558079740:AAEVEWh1T3KP28pnPKb3bXZ1gQ0lZTpzjj0") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","AshutoshGoswami24")     
@@ -14,10 +14,10 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/30800c85ab730c3858b90-7f542ebcc15db4dd56.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '8108281129').split()]
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7207533746').split()]
     # -- FORCE_SUB_CHANNELS = ["BotzPW","AshuSupport","AshutoshGoswami24"] -- # 
     FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', '').split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002381050327"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1004753466500"))
     PORT = int(os.environ.get("PORT", "2196"))
     
     # wes response configuration     
